@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fas,
+.fab {
+  font-size: 27px;
+  color: #7ed957;
+}
+
+.barralta {
+  background: var(--color-barralta);
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 20;
+}
+.barralta .menu {
+  width: 20%;
+  z-index: 30;
+}
+
+.barralta .compartir {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  right: 10px;
+}
+.contenido {
+  background: #116611;
+  margin: 2px;
+  border: 2px, solid, rgb(96, 214, 106);
+  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 12px;
+  padding-top: 12px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+body {
+  background: rgb(96, 214, 106);
+  background: linear-gradient(
+    336deg,
+    rgba(96, 214, 106, 1) 35%,
+    rgba(226, 255, 188, 1) 83%
+  );
+}
+
+img {
+  width: 92%;
+  margin: auto;
+}
+h3,
+h1 {
+  color: white;
+  font-family: "Peace sans";
+}
+.cuadro {
+  display: none;
+  width: 10px;
+}
+
+.barralta .menu:hover .cuadro {
+  width: 85%;
+  height: 100%;
+  background: #116611;
+  position: fixed;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.navegacion a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+h1,
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer p {
+  font-size: 15;
+  width: 100%;
+}
+
+.footer {
+  background: #008037;
+  color: #fff;
+  padding: auto;
+  display: flex;
+  text-align: center;
+}
