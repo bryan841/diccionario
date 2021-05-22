@@ -1,2 +1,1 @@
-# diccionario
-Created with CodeSandbox
+
